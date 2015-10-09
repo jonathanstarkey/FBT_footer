@@ -94,7 +94,7 @@ label.tab-2 {
     padding-bottom: 40px;
     
     top: -28px;
-    left: 244px;
+    left: 241px;
     
     background: #3b5cad;
     
@@ -121,7 +121,7 @@ label.tab-3 {
     padding-bottom: 50px;
     
     top: -40px;
-    left: 516px;
+    left: 511px;
     
     background: #ff4338;
     
@@ -148,7 +148,7 @@ label.tab-4 {
     padding-bottom: 40px;
     
     top: -28px;
-    left: 686px;
+    left: 681px;
     
     background: #ff8300;
     
@@ -177,7 +177,7 @@ label.tab-5 {
     
     top: -35px;
     
-    left: 854px;
+    left: 846px;
     
     -webkit-transform: skewY(1deg);
     -moz-transform: skewY(1deg);
@@ -250,18 +250,16 @@ label.tab-5 {
 
 /*-------- BOTTOM FOOTER --------*/
 
-div#bottom-footer {
+.bottom-footer {
     margin: 0 auto;
     
     width: 1280px;
     height: 485px;
     
-    
     background-color: #ffcb0a;
 }
 
-section.footer-info,
-section.footer-address{
+section.footer-info {
     display: inline-block;
     margin: 50px;
     
@@ -280,6 +278,49 @@ section.footer-info a:hover {
     text-decoration: underline;
     color: rgba(0, 0, 0, 0.8);
 }
+
+.footer-address {
+    display: inline-block;
+    vertical-align: top;
+    
+    margin-top: 53px;
+    margin-left: 80px;
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.625em;
+}
+
+.footer-address-info{
+    display: block;
+    margin: 0;
+    
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.footer-address-info span {
+    display: block;
+}
+
+.address-name {
+    font-weight: bold;
+}
+
+span.address-name:hover {
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+
+.omaha-store {
+    margin-top: 30px;
+}
+
+
+
+
 
 /*-------- BOTTOM FOOTER END --------*/
 
