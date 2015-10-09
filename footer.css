@@ -313,10 +313,58 @@ span.address-name:hover {
     color: rgba(0, 0, 0, 0.8);
 }
 
-
 .omaha-store {
     margin-top: 30px;
 }
+
+div#mcafee {
+    display:block;
+    padding-top: 8px;
+    
+    background: url(img/mcafee.png) no-repeat center;
+    width: 103px;
+    height: 37px;
+}
+
+div#bbb {
+    display:block;
+    padding-top: 20px;
+    
+    background: url(img/bbb.png) no-repeat center;
+    width: 103px;
+    height: 42px;
+}
+
+div#smarter-logo {
+    margin: 0 auto;
+    
+    background: url(img/swtp.png) no-repeat center;
+    width: 640px;
+    height: 119px;  
+}
+
+div#copyright{
+    display: inline-block;
+    margin: 0 auto;
+    
+    width: 1280px;
+    height: 50px;
+}
+
+span#copyright-copy {
+    display: block;
+    padding-top: 25px;
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    
+     color: rgba(0, 0, 0, 0.6);
+    
+    text-align: center;
+    line-height: 20px;
+}
+
 
 
 
