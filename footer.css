@@ -317,9 +317,19 @@ span.address-name:hover {
     margin-top: 30px;
 }
 
+.footer-right_icons{
+    display: inline-block;
+    margin-top: 52px;
+    vertical-align: top;
+    margin-left: 20px;
+    
+    text-align: center; 
+}
+
 div#mcafee {
     display:block;
     padding-top: 8px;
+    margin: 0 auto;
     
     background: url(img/mcafee.png) no-repeat center;
     width: 103px;
@@ -328,11 +338,47 @@ div#mcafee {
 
 div#bbb {
     display:block;
-    padding-top: 20px;
+    padding-top: 10px;
+    margin: 0 auto;
     
     background: url(img/bbb.png) no-repeat center;
     width: 103px;
     height: 42px;
+}
+
+div.social_media_parent {
+    display:block;
+    padding-top: 20px;
+    margin: 0 auto;
+    
+    width: 181px;
+    height: 34px;
+}
+
+a.social_media {
+    display:inline-block;
+    margin: 0 4px;
+    background-size: 34px;
+    background: url(img/social_media.png) no-repeat;
+
+    width: 34px;
+    height: 34px;
+}
+
+a.facebook{
+    background-position: 0px center;
+}
+
+a.twitter{
+     background-position: -49px center;
+}
+
+a.youtube{
+    background-position: -98px center;
+}
+
+a.pinterest{
+    background-position: -147px center;
 }
 
 div#smarter-logo {
